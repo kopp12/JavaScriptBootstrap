@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog volunteer</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="bg-success text-white">
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">Dog Volunteer</a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <div class="container-fluid">
+          <div class="row">
+              <style>
+                  img{width: 30%;}
+              </style>
+              <div class="col mt-5 text-center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvnYKu6IiZBfXqz7HgnmIXgB6kP7FCtXyp1A&usqp=CAU" class="img-rounded p-0" alt="...">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GF1LAOwMsvvAtssgdFCJEiNtfdSTiWOLnw&usqp=CAU" class="img-fluid img-rounded" alt="...">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1RGBBErcJzwaHHxKulJWGGt7BAQKEcljB5A&usqp=CAU" class="img-fluid img-rounded" alt="...">
+           </div>
+        </div>
+      </div>
+<form id="addForm">
+      <div class="container-fluid">
+          <div class="row">
+                  <div class="mb-3">
+                    <label class="form-label">Volunteer Organization</label>
+                    <input type="text" class="form-control mr-2" id="Volunteer">
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Participation Date</label>
+                    <input type="text" class="form-control mr-2" id="Participation">
+                  </div>
+                       <input type="submit" class="btn btn-dark" value="Submit">
+                </form>
+                    
+
+    <table id="list" class="table table-info table-striped mt-5">
+      <thead>
+      <tr>
+         <th> Volunteer Organization</th>
+          <th> Particpation Date </th>
+          <th>Delete</th>
+      </tr>
+      </thead>
+      <tbody></tbody>
+  </table>
+   </div>
+  </div>
+</div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="kelechi.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
